@@ -3,7 +3,7 @@ services:
     name: checkgdvut-backend
     env: node
     buildCommand: npm install
-    startCommand: node src/server.js
+    startCommand: node server.js
     plan: free
     envVars:
       - key: TOKEN
