@@ -3,9 +3,14 @@ services:
     name: checkgdvut-backend
     env: node
     buildCommand: npm install
-    startCommand: node server.js
+    startCommand: node src/server.js
+    plan: free
     envVars:
       - key: TOKEN
-        value: MTM5MDk5NTY1NjQzMjI4Nzc5NQ.GXAonO.6DX8vgSyon7BDAiBnQpXJRQPCfNcVUbWYNcrdE
+        value: <TOKEN_CỦA_BẠN>
       - key: API_KEY
-        value: AIzaSyDR34V4nSclq1kIMgbnSyMgTMeqUlzFOqo
+        value: <API_KEY_FIREBASE>
+      - key: AUTH_DOMAIN
+        value: <AUTH_DOMAIN_FIREBASE>
+      - key: PROJECT_ID
+        value: <PROJECT_ID_FIREBASE>
