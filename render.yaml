@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: checkgdvut-backend
+    env: node
+    plan: free
+    branch: main
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: TOKEN
+        value: your_discord_token_here
+      - key: API_KEY
+        value: your_firebase_api_key_here
+      - key: AUTH_DOMAIN
+        value: your_firebase_auth_domain
+      - key: PROJECT_ID
+        value: your_firebase_project_id
