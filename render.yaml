@@ -6,6 +6,6 @@ services:
     startCommand: node server.js
     envVars:
       - key: TOKEN
-        value: your_discord_token
+        value: MTM5MDk5NTY1NjQzMjI4Nzc5NQ.GXAonO.6DX8vgSyon7BDAiBnQpXJRQPCfNcVUbWYNcrdE
       - key: API_KEY
-        value: your_api_key
+        value: AIzaSyDR34V4nSclq1kIMgbnSyMgTMeqUlzFOqo
